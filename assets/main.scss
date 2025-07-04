@@ -3,3 +3,23 @@
 ---
 
 @import 'tale';
+
+@import url("https://cdn.jsdelivr.net/npm/cmu-serif@0.7.0/css/cmu-serif.css");
+
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "CMU Serif", serif !important;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.katex {
+  font-size: 17px;
+}
+
+.katex-display {
+  font-size: 17px;
+}
