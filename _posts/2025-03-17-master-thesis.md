@@ -17,4 +17,3 @@ Full thesis title:
   This browser does not support PDFs. Please download the PDF to view it: 
   <a href="{{ page.pdf_link }}">Download PDF</a>.
 </iframe>
-
