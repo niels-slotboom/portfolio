@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 <figure style="margin: 0;">
-  <img src="/assets/portrait.jpg" alt="Portrait" style="max-width:100%; height:auto;">
+  <img src="{{ site.baseurl }}/assets/portrait.jpg" alt="Portrait" style="max-width:100%; height:auto;">
 </figure>
 
 # About Me
