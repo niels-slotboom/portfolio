@@ -3,7 +3,6 @@ layout: post
 title:  "Introducing Tale"
 author: "Chester"
 comments: false
-tags: Tale
 excerpt_separator: <!--more-->
 hidden: true
 ---

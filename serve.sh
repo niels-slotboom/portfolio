@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 rm -rf _site/
-bundle exec jekyll serve --livereload --incremental
+bundle exec jekyll serve --incremental --livereload

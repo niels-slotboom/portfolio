@@ -2,7 +2,6 @@
 layout: post
 title: "Sticky Posts"
 author: "Chester"
-tags: Tutorial
 excerpt_separator: <!--more-->
 ---
 

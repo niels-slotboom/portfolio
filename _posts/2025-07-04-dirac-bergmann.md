@@ -6,9 +6,11 @@ tags: Academic
 excerpt_separator: <!--more-->
 ---
 
-[Direct Link to the PDF]( /assets/pdf/dirac-bergmann.pdf )
+
 
 In anticipation of my goal of understanding the ADM formalism to pursue numerical relativity, I decided to revisit Hamiltonian field theory, which ultimately led me to explore the Dirac–Bergmann algorithm. This post gathers the notes that arose from that effort, along with reflections on the process I followed to learn about the topic.<!--more-->
+
+[Direct Link to the PDF]( /assets/pdf/dirac-bergmann.pdf )
 
 My study strategy was very much iterative and exploratory. I began by reviewing material I already knew reasonably well—mechanics and Lagrangian field theory—which soon raised new questions about how one might generalise the construction of a Hamiltonian to the field-theoretic setting. This, in turn, brought me to the topic of constraints.
 
