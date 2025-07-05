@@ -10,7 +10,7 @@ I shoot primarily with a Sony A7II body, paired with various lenses, most often 
 Beyond just the aspect ratio, anamorphic lenses introduce unique optical aberrations—prominent horizontal lens flares when facing bright lights, or bokeh that’s oval rather than circular. This is what I enjoy most about using them: they give an unusual, cinematic quality that makes intriguing scenes stand out even more."
 ---
 
-{% assign images = "8,25,11,23,24,26,2,3,4,27,28,1,5,6,7,9,10,12,13,14,15,16,18,19,20,21,22,17" | split: "," %}
+{% assign images = "8,25,11,23,24,26,2,3,4,27,28,1,5,6,7,9,10,12,13,14,15,16,29,18,19,20,21,22,17" | split: "," %}
 
 {% for img in images %}
 <figure>
