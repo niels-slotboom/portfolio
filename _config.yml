@@ -1,8 +1,8 @@
 # Site settings
 title:          "Niels Slotboom"
-description:    "Minimal Jekyll theme for storytellers"
+description:    "Portfolio of academic work and projects by Niels Slotboom"
 baseurl:        "/portfolio"
-url:            "https://thevecgh.github.io"
+url:            "https://niels-slotboom.github.io/portfolio"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -10,7 +10,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Niels Slotboom
-  url:          https://example.com
+  url:          "https://niels-slotboom.github.io/portfolio"
   email:        slotboom.n@gmail.com
 
 # Build settings
