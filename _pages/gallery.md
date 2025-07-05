@@ -14,7 +14,7 @@ Beyond just the aspect ratio, anamorphic lenses introduce unique optical aberrat
 
 {% for img in images %}
 <figure>
-  <img src="/assets/gallery/low/{{ img }}.jpg" alt="Photo {{ forloop.index }}" style="max-width:100%; height:auto;">
-  <figcaption><a href="/assets/gallery/{{ img }}.jpg" target="_blank">View full resolution</a></figcaption>
+  <img src="{{ site.baseurl }}/assets/gallery/low/{{ img }}.jpg" alt="Photo {{ forloop.index }}" style="max-width:100%; height:auto;">
+  <figcaption><a href="{{ site.baseurl }}/assets/gallery/{{ img }}.jpg" target="_blank">View full resolution</a></figcaption>
 </figure>
 {% endfor %}

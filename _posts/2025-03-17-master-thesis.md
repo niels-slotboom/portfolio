@@ -4,7 +4,7 @@ title: "Master Thesis: Schwarzschild Quasinormal Modes via the Penrose Limit"
 author: "Niels Slotboom"
 tags: Academic Thesis
 excerpt_separator: <!--more-->
-pdf_link: "/assets/pdf/master-thesis.pdf"
+pdf_link: "{{ site.baseurl }}/assets/pdf/master-thesis.pdf"
 ---
 
 Full thesis title:
