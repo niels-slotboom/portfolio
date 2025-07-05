@@ -1,7 +1,7 @@
 # Site settings
 title:          "Niels Slotboom"
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        ""
+baseurl:        "/portfolio/"
 url:            "https://chesterhow.github.io"
 
 # Google Analytics
