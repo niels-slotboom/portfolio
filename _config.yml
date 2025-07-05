@@ -1,6 +1,6 @@
 # Site settings
 title:          "Niels Slotboom"
-description:    "Portfolio of academic work and projects by Niels Slotboom"
+description:    "Academic portfolio and personal projects by Niels Slotboom"
 baseurl:        "/portfolio"
 url:            "https://niels-slotboom.github.io/portfolio"
 
