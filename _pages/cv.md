@@ -7,4 +7,4 @@ permalink: /cv/
 
 # My CV
 
-This is my CV page.
+This will be my CV page, remains to be added.
