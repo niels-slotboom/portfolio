@@ -2,7 +2,7 @@
 layout: post
 title: "Dirac-Bergmann and Hamiltonian Field Theory"
 author: "Niels Slotboom"
-tags: Academic
+tags: Academic Notes
 excerpt_separator: <!--more-->
 ---
 
