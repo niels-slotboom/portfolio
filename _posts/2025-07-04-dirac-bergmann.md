@@ -12,7 +12,7 @@ In anticipation of my goal of understanding the ADM formalism to pursue numerica
 
 [Direct Link to the PDF]({{ site.baseurl }}/assets/pdf/dirac-bergmann.pdf)
 
-My study strategy was very much iterative and exploratory. I began by reviewing material I already knew reasonably well—mechanics and Lagrangian field theory—which soon raised new questions about how one might generalise the construction of a Hamiltonian to the field-theoretic setting. This, in turn, brought me to the topic of constraints.
+My study strategy was very much iterative and exploratory. I began by reviewing material I already knew reasonably well—mechanics and Lagrangian field theory—which soon raised new questions about how one might generalise the construction of a Hamiltonian to the field-theoretic setting. This, in turn, brought me to the topic of constraints and finally, the Dirac-Bergmann algorithm.
 
 Rather than relying heavily on textbooks, I preferred to work through my own questions with pen and paper, turning to ChatGPT whenever I found myself stuck or in need of additional context. Throughout, I tried to remain critical of whether I truly understood each step, constantly probing my grasp by formulating and tackling fresh questions. Writing down the results of this process has left me with a kind of informal documentation of my explorations, which might prove helpful to others grappling with similar lines of thought.
 
