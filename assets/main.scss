@@ -6,6 +6,17 @@
 
 @import url("https://cdn.jsdelivr.net/npm/cmu-serif@0.7.0/css/cmu-serif.css");
 
+body {
+  font-feature-settings: "liga" 0, "clig" 0;
+  font-variant-ligatures: none;
+}
+
+code, pre {
+  font-feature-settings: "liga" 1, "clig" 1;
+  font-variant-ligatures: common-ligatures;
+}
+
+
 body,
 h1, h2, h3, h4, h5, h6 {
   font-family: "CMU Serif", serif !important;
@@ -67,3 +78,51 @@ body {
   color: #444;
 }
 
+// CV Skills block
+.skills {
+  margin-bottom: 3em;
+}
+
+.skills h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+.skills-block {
+  margin-bottom: 1.8em;
+}
+
+.skills-block h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+  color: #333;
+}
+
+.skills-block ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.skill-list li {
+  list-style: none;         /* override any inherited style */
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.skill-list li::before {
+  content: "‣";             /* customise as you like */
+  position: absolute;
+  left: 0;
+  top: 0em;               /* vertically centres the bullet */
+  color: #555;
+  font-weight: bold;
+  font-size: 1em;
+}
