@@ -1,13 +1,23 @@
 <div class="experience-block">
-  <h3 class="experience-title">{{ include.what }}</h3>
-  <p class="experience-meta">
-    <span class="experience-where">{{ include.where }}</span> |
-    <span class="experience-when">{{ include.from }} – {{ include.to }}</span>
-    {% if include.grade %}
-      | <span class="experience-grade">Grade: {{ include.grade }}</span>
-    {% endif %}
-  </p>
+  <div class="experience-header">
+    <div class="experience-left">
+      {{ include.where }}
+    </div>
+    <div class="experience-right">
+      {{ include.from }} {% if include.to %} — {{ include.to }} {% endif %}{% if include.grade %} | Grade {{ include.grade }}{% endif %}
+    </div>
+  </div>
+
+  <div class="experience-what">
+    <i>{{ include.what }}</i>
+  </div>
+
   {% if include.description %}
-    <p class="experience-description">{{ include.description }}</p>
+  <div class="experience-description">
+    {{ include.description }}
+    {% if include.link %}
+      <a href="{{ site.baseurl }}{{ include.link }}" target="_blank">[{{ include.link_description }}]</a>
+    {% endif %}
+  </div>
   {% endif %}
 </div>

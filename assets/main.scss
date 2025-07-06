@@ -37,3 +37,33 @@ body {
 .post-title {
   font-size: 38px !important;
 }
+
+// experience blocks
+.experience-block {
+  margin-bottom: 1.5em;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.experience-left {
+}
+
+.experience-right {
+  white-space: nowrap;
+  color: #adadad;
+}
+
+.experience-what {
+  font-weight: italic;
+}
+
+.experience-description {
+  margin-left: 1em;
+  color: #444;
+}
+
