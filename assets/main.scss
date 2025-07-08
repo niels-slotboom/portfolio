@@ -31,13 +31,16 @@ body {
   line-height: 1.6;
 }
 
-.katex {
-  font-size: 17px;
+.katex, 
+.katex .katex-html, 
+.katex .base {
+  font-size: 21px !important;
 }
 
 .katex-display {
-  font-size: 17px;
+  font-size: 21px;
 }
+
 
 .gallery-container {
     max-width: 100%;
@@ -110,7 +113,7 @@ body {
 }
 
 .skill-list li {
-  list-style: none;         /* override any inherited style */
+  list-style: none;      
   position: relative;
   padding-left: 1.2em;
   margin-bottom: 0.5em;
@@ -118,10 +121,10 @@ body {
 }
 
 .skill-list li::before {
-  content: "‣";             /* customise as you like */
+  content: "‣";             
   position: absolute;
   left: 0;
-  top: 0em;               /* vertically centres the bullet */
+  top: 0em;             
   color: #555;
   font-weight: bold;
   font-size: 1em;

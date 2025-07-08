@@ -33,7 +33,6 @@ While I am fully aware of the theoretical and technical challenges such a system
 
 
 ## Other Projects and Interests
-
 Outside of academia, I enjoy engaging with more hands-on, craft-oriented projects. Electronics has fascinated me since childhood—what began with assembling simple amplifier kits gradually evolved into more complex builds, such as designing and constructing my own mechanical keyboard, complete with a CNC-machined aluminium chassis. This interest often overlaps with my appreciation for metalworking, where I’ve taken to making rings and experimenting with small-scale fabrication techniques.
 
 In my spare time, I also enjoy cycling—nothing too serious, but a welcome way to unwind and explore. Another long-standing interest of mine is photography. I’m particularly fascinated by the visual and optical characteristics of anamorphic lenses, which inspired me to build a small collection of images I'm especially proud of. A selection of my favourite photographs can be found on the [gallery page]( {{ site.baseurl }}/gallery/ ) of this website. I enjoy how these projects keep me curious in a different register.
