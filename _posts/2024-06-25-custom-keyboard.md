@@ -28,7 +28,7 @@ Having completed the circuit, it was time to design the printed circuit board (P
 <figure style="margin:0;"> 
   <img src="{{ site.baseurl }}/assets/keyboard/pcb_design.svg" alt="PCB Design in KiCAD" style="max-width:100%; height:auto;">
 </figure>
-As expected, the switch-and-diode matrix takes up most of the surface area, while the ATMEGA32U4 circuitry is neatly tucked away beneath the space bar at the bottom. After sending the design files off to JLCPCB and waiting a few weeks, five pristine white PCBs arrived at my door. Here’s an impression of the finished boards:
+As expected, the switch-and-diode matrix takes up most of the surface area, while the ATMEGA32U4 circuitry is neatly tucked away beneath the space bar at the bottom. After sending the design files off to JLCPCB and waiting a few weeks, five pristine white PCBs arrived at my door. Here’s an impression of the finished, still unpopulated boards:
 <figure style="margin:0;">
   <img src="{{ site.baseurl }}/assets/keyboard/low/pcb_photo.jpg" alt="Close-Up of the PCB" style="max-width:100%; height:auto;">
   <figcaption><a href="{{ site.baseurl }}/assets/keyboard/pcb_photo.jpg" target="_blank">View full resolution</a></figcaption>
