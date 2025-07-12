@@ -9,12 +9,15 @@ permalink: /tags/
     <h2 class="tags-header-title">{{ page.title }}</h2>
     <div class="tags-header-line"></div>
   </div>
-  <div class="tags-clouds">
-    {% for tag in site.tags %}
+  {% assign sorted_tags = site.tags | sort %}
+
+<div class="tags-clouds">
+  {% for tag in sorted_tags %}
     <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
-    {% endfor %}
-  </div>
-  {% for tag in site.tags %}
+  {% endfor %}
+</div>
+
+{% for tag in sorted_tags %}
   <div class="tags-item" id="{{ tag[0] }}">
     <svg
       class="tags-item-icon"
@@ -27,7 +30,6 @@ permalink: /tags/
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="feather feather-tag"
     >
       <path
         d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
@@ -36,18 +38,18 @@ permalink: /tags/
     </svg>
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
-    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
-      <div>
-        <span class="tags-post-title">{{ post.title }}</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="{{ post.date }}">
-          {{ post.date | date:"%Y-%m-%d" }}
-        </time>
-      </span>
-    </a>
+      <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+        <div>
+          <span class="tags-post-title">{{ post.title }}</span>
+          <div class="tags-post-line"></div>
+        </div>
+        <span class="tags-post-meta">
+          <time datetime="{{ post.date }}">
+            {{ post.date | date:"%Y-%m-%d" }}
+          </time>
+        </span>
+      </a>
     {% endfor %}
   </div>
-  {% endfor %}
+{% endfor %}
 </div>
