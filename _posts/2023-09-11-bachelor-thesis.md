@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bachelor Thesis: RF Pulse Development for Homogeneous Excitation in (X)UHF MRI"
+title: "Bachelor Thesis: RF Pulse Development for Homogeneous Excitation in MRI"
 author: "Niels Slotboom"
 tags: Academic Thesis
 excerpt_separator: <!--more-->
