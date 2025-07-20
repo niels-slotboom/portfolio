@@ -129,3 +129,63 @@ body {
   font-weight: bold;
   font-size: 1em;
 }
+
+pre code {
+  font-size: 1rem;
+  background: #f0f0f0;
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.language-cpp {
+  margin: 0em auto;
+}
+
+.language-cpp .highlight {
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 0em;
+}
+
+.language-cpp pre {
+  font-size: 0.9rem;
+  padding: 0em;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.language-cpp code {
+  background: none;
+  color: inherit; // prevent rouge from overriding with annoying monospace colour schemes
+}
+
+
+.language-cpp.highlighter-rouge,
+.language-cpp .highlight,
+.language-cpp .highlight pre {
+  margin: 0 !important;
+}
+
+.language-cpp.highlighter-rouge,
+.language-cpp.highlighter-rouge > .highlight,
+.language-cpp.highlighter-rouge > .highlight > pre,
+figure.highlight,
+figure.highlight pre {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Inline code, including Rouge-generated spans */
+code:not(pre code),
+code.language-plaintext,
+code.highlighter-rouge {
+  background-color: #dddddd;
+  color: #555555;
+  font-family:  monospace;
+  font-size: 0.9em;
+  padding: 0.04em;
+  white-space: nowrap;
+}
