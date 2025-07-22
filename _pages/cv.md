@@ -128,7 +128,7 @@ permalink: /cv/
 ## Interests and Ambitions
 <ul class="skill-list">
   <li>Deep interest in the analytical and geometric foundations of generalised metrised gravity, including constraint analysis and theoretical structures</li>
-  <li>Strong engagement with numerical methods and high-performance computing, particularly in gravitational wave modelling and simulating compact sources using C++ and CUDA</li>
+  <li>Strong engagement with numerical methods and high-performance computing, particularly in Maxwell theory and Bloch simulations, with interest in gravitational wave modelling and simulating compact sources using C++ and CUDA</li>
   <li>Motivated to develop tools that bridge theoretical physics and HPC, making complex simulations more accessible to researchers without specialised programming expertise</li>
 </ul>
 <p>For further details, see the <a href="{{ site.baseurl }}/about" target="_blank">About page</a>.</p>
