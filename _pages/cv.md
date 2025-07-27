@@ -8,6 +8,11 @@ pdf_link: "/assets/cv.pdf"
 
 [View as PDF]( {{ site.baseurl }}/{{ page.pdf_link }} )
 
+## Academic Summary
+I am a theoretical physicist with a BSc and MSc in physics from the University of Bern, where I developed a strong foundation in mathematical physics, particularly general relativity, alongside growing expertise in high-performance computing. I aim to extend and refine this foundation during my studies at the University of Cambridge. My experience includes C++ and CUDA programming, with applications to numerical simulations outside gravitation. I am particularly interested in generalised theories of gravity, and aim to contribute to both their analytical study and numerical implementation—bringing together geometry, field theory, and computational methods in my future work. For more information, see the [about page]( {{ site.baseurl }}/about/ ) of this website
+
+---
+
 ## Education
 
 {% include experience.html
@@ -125,13 +130,3 @@ pdf_link: "/assets/cv.pdf"
     <li><strong>French</strong>: Baccalaureate level</li>
   </ul>
 </div>
-
----
-
-## Interests and Ambitions
-<ul class="skill-list">
-  <li>Deep interest in the analytical and geometric foundations of generalised metrised gravity, including constraint analysis and theoretical structures</li>
-  <li>Strong engagement with numerical methods and high-performance computing, particularly in Maxwell theory and Bloch simulations, with interest in gravitational wave modelling and simulating compact sources using C++ and CUDA</li>
-  <li>Motivated to develop tools that bridge theoretical physics and HPC, making complex simulations more accessible to researchers without specialised programming expertise</li>
-</ul>
-<p>For further details, see the <a href="{{ site.baseurl }}/about" target="_blank">About page</a>.</p>
