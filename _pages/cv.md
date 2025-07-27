@@ -3,7 +3,10 @@ layout: post
 title: "Curriculum Vitae"
 author: "Niels Slotboom"
 permalink: /cv/
+pdf_link: "/assets/cv.pdf"
 ---
+
+[View as PDF]( {{ site.baseurl }}/{{ page.pdf_link }} )
 
 ## Education
 
