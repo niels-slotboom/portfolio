@@ -121,7 +121,7 @@ pdf_link: "/assets/cv.pdf"
   <h3>Languages</h3>
   <ul class="skill-list">
     <li><strong>German, Dutch</strong>: Native</li>
-    <li><strong>English</strong>: C2, CEFR 209, acquired in 2024</li>
+    <li><strong>English</strong>: C2 CEFR, Score of 209 on Cambridge Scale, acquired in 2024</li>
     <li><strong>French</strong>: Baccalaureate level</li>
   </ul>
 </div>
