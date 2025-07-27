@@ -103,7 +103,7 @@ permalink: /cv/
     <li><strong>Typesetting</strong>: Typst, LaTeX</li>
     <li><strong>Hardware</strong>: Experienced in Computer Configuration and Assembly, Hardware Architecture, Embedded Systems</li>
     <li><strong>Electronics</strong>: Circuit and PCB Design, Repairs, Reverse Engineering</li>
-    <li><strong>General</strong>: Troubleshooting, networking</li>
+    <li><strong>General</strong>: Troubleshooting, Networking</li>
   </ul>
 </div>
 
@@ -118,7 +118,7 @@ permalink: /cv/
   <h3>Languages</h3>
   <ul class="skill-list">
     <li><strong>German, Dutch</strong>: Native</li>
-    <li><strong>English</strong>: C2, CEFR 209, acquired in 2023</li>
+    <li><strong>English</strong>: C2, CEFR 209, acquired in 2024</li>
     <li><strong>French</strong>: Baccalaureate level</li>
   </ul>
 </div>
